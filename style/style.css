@@ -89,7 +89,12 @@ p {
     font-size: 44px;
   }
 
+  .hero {
+    padding: 80px 20px;
+  }
+
   .project-description {
+    padding: 20px;
     text-align: center;
   }
 }
