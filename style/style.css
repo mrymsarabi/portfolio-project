@@ -94,6 +94,7 @@ p {
   font-size: 24px;
   line-height: 1.5;
   color: black;
+  font-weight: bold;
 }
 
 .content-container p {
