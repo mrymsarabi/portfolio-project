@@ -10,7 +10,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: var(--heading-font-family);
   font-weight: bold;
   font-size: 96px;
@@ -25,6 +26,10 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+}
+
+nav {
+  padding: 15px 0;
 }
 
 nav ul {
@@ -63,6 +68,16 @@ footer .contact-box {
   border-radius: 10px;
 }
 
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
 footer .social-links a {
   margin: 0 20px;
   color: var(--branding-color);
@@ -78,6 +93,10 @@ footer .social-links a:hover {
   background: var(--branding-color);
 }
 
+h3 {
+  font-size: 48px;
+}
+
 .logo {
   max-height: 40px;
 }
@@ -85,7 +104,7 @@ footer .social-links a:hover {
 .hero {
   text-align: center;
   background-color: var(--secondary-color);
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -134,6 +153,10 @@ footer .social-links a:hover {
   border: 1px solid var(--branding-color) !important;
 }
 
+.content-container {
+  padding: 50px 0;
+}
+
 .content-container h1 {
   font-size: 64px;
   line-height: 80px;
@@ -173,10 +196,6 @@ footer .social-links a:hover {
 
   h2 {
     font-size: 44px;
-  }
-
-  .hero {
-    padding: 80px 20px;
   }
 
   .project-description {
